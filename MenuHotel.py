@@ -38,6 +38,8 @@ while True:
             numacomp = input("Ingrese número de acompañantes\n")
             while numacomp == "":
                 numacomp = input("ingresa numero valido")
+        if opcion == 2:
+            print("Consultar datos Huesped")      
     except:
         print("Opcion no existe")
     # print("Ha salido del sistema")
